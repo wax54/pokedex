@@ -1,10 +1,11 @@
 .Pokecard{
-    min-width: 12rem;
-    min-height: 17rem;
     border-radius: 15px;
-    background-color: grey;
-    margin:20px;
+    background-color: lightgray;
+    
+    padding: 20px 30px;
+    margin:30px;
 
+    text-align: center;
 
     display: inline-flex; 
     flex-direction: column;
@@ -12,4 +13,9 @@
     justify-content: space-evenly safe;
     align-items: center;
     align-content: stretch;
+}
+
+.Pokecard-title{
+    font-size: larger;
+    color: blue;
 }

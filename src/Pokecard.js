@@ -4,11 +4,11 @@ const getImageUrl = id => `https://raw.githubusercontent.com/PokeAPI/sprites/mas
 
 const Pokecard = ({id, name, exp, type}) => (
     <span className="Pokecard">
-        <span className="Pokecard-name">{name}</span> 
+        <span className="Pokecard-title"><strong>{name}</strong></span>
         <img className="Pokecard-image" src={getImageUrl(id)} alt={name + " image"}></img>
 
-        <span className="Pokecard-type">type: {type}</span>
-        <span className="Pokecard-exp">exp: {exp}</span>
+        <span className="Pokecard-type">Type: {type}</span>
+        <span className="Pokecard-exp">EXP: {exp}</span>
 
     </span>
 );
