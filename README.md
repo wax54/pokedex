@@ -1,6 +1,6 @@
 # A simple Pokedex Web App made with React
 
-##To run the app
+## To run the app
 Clone the Repo onto your computer,
 run `npm i` in the directy you cloned the repo to,
 run `npm start`,
